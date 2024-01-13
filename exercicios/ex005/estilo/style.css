@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: normal;
+    src: url(../fonts/roboto-black.ttf) format(opentype);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../imagens/wallpaper001.jpg);
+    font-family: 'roboto', sans-serif;
+    font-weight: normal;
+}
+
+header {
+    text-shadow:3px 2px 2px rgba(0, 0, 0, 0.356);
+    
+}
+
+header h1 {
+    color: white;
+    background-color: darkblue;
+    
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.342);
+    margin:-20px -20px -40px -20px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+header p{
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+nav {
+    font-weight: bolder;
+    margin: -5px 0px 0px -15px;
+    padding: 10px;
+}
+
+nav > a {
+    color: black;
+    padding: 7px;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background-color: lightblue;
+    border-radius: 5px;
+    color: darkblue;
+    text-decoration: underline;
+    transition-duration: 0.3s;
+}
+
+
+main{
+    background-color: white;
+    box-shadow: 1px 0px 10px 10px rgba(0, 0, 0, 0.178);
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+}
+
+h1.outra-cor{
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.356);
+    padding-bottom: 5px;
+    color: darkblue;
+}
+
+h1#altura{
+    padding-top: 10px;
+}
+
+main p{
+    text-indent: 30px;
+    line-height: 1.3em;
+}
+
+main img{
+    width: 100%;
+}
+
+.video{
+    background-color: white;
+    margin: -20px 0px 30px -20px;
+    padding: 3px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+.video > iframe{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: black;
+}
