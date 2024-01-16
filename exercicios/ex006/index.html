@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            height: 400px;
+            border-collapse: collapse;
+        }
+        tr{
+            text-align: center;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .treino{
+            background-color:lightgreen;
+        }
+        .descanço{
+            background-color: lightcoral;
+        }
+        .concluido{
+            background-color: lightblue;
+        }
+        #top{
+            vertical-align: top;
+        }
+        #bottom{
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela</h1>
+    <table>
+        <tr>
+            <td class="treino" id="top">Segunda</td>
+            <td class="descanço" id="bottom">Terça</td>
+            <td class="treino" id="top">Quarta</td>
+            <td class="descanço" id="bottom">Quinta</td>
+            <td class="treino" id="top">Sexta</td>
+        </tr>
+        <tr>
+            <td class="concluido">A</td>
+            <td class="concluido">B</td>
+            <td class="concluido">C</td>
+            <td class="concluido">D</td>
+            <td class="concluido">E</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
